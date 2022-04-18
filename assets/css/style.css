@@ -1,0 +1,492 @@
+h1 {
+    color: black;
+    font-weight: bold;
+
+}
+
+header {
+    background-image: url("../../img/ARRIBA.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.barraNav {
+    background-color: gray;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+
+
+}
+
+header .barraNav .barraNavbarra {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header .barraNav .barraNavbarra .barraNavItem {
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+header .barraNav .barraNavbarra .barraNavItem a {
+    color: white;
+    text-decoration: none;
+}
+
+.imgInicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgInicio1 .imageninc {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.insta a {
+    color: black;
+    text-decoration: none;
+
+}
+
+footer .piePage {
+    background-color: white;
+}
+
+main .imgAlum {
+
+    justify-content: center;
+    text-align: center;
+}
+
+main .imgAluminio {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+main .arquitectura1 {
+    justify-content: center;
+    text-align: center;
+
+}
+
+main .disenointerior {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+main .empresa {
+    justify-content: center;
+    text-align: center;
+
+}
+
+form {
+    text-align: center
+}
+
+.grilla {
+    display: grid;
+    height: 100vh;
+    grid-template-areas:
+        "arquitectura1 arquitectura1 disinterior1"
+        "disinterior imageninc disinterior1"
+        "logopie horario insta1";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+section#piePage {
+    grid-area: logopie;
+}
+
+section#horario {
+    grid-area: horario;
+    text-align: center;
+}
+
+section#insta1 {
+    grid-area: insta1;
+}
+
+
+section#arquitectura1 {
+    grid-area: arquitectura1;
+
+
+}
+
+section#disinterior {
+    grid-area: disinterior;
+}
+
+section#imageninc {
+    grid-area: imageninc;
+}
+
+section#disinterior1 {
+    grid-area: disinterior1;
+}
+
+.grillaempresa {
+    display: grid;
+    grid-template-areas:
+        "logopie horario insta1";
+    grid-template-columns: 33%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+section#arquitec1 {
+    grid-area: arquitec1;
+}
+
+section#arquitec2 {
+    grid-area: arquitec2;
+}
+
+section#piePagearq {
+    grid-area: piePagearq;
+}
+
+section#horarioarq {
+    grid-area: horarioarq;
+    text-align: center;
+}
+
+section#insta1arq {
+    grid-area: insta1arq;
+
+}
+
+.arquitectura1 {
+    display: grid;
+    height: 100vh;
+    grid-template-areas:
+        "arquitec1 arquitec1 arquitec2"
+        "arquitec1 arquitec1 arquitec2"
+        "piePagearq horarioarq insta1arq";
+    grid-template-columns: 33%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    justify-items: center;
+    align-items: center;
+
+}
+
+section#placard {
+    grid-area: placard;
+
+
+}
+
+section#cocina {
+    grid-area: cocina;
+}
+
+section#lavanderia {
+    grid-area: lavanderia;
+}
+
+section#escritorio {
+    grid-area: escritorio;
+}
+
+.grilladis {
+    display: grid;
+    height: 100vh;
+    grid-template-areas:
+        "cocina placard escritorio"
+        "cocina lavanderia escritorio"
+        "logopie horario insta1";
+
+    grid-template-columns: 33%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+section#aberturas {
+    grid-area: aberturas;
+}
+
+section#ventana {
+    grid-area: ventana;
+}
+
+section#puertaventana {
+    grid-area: puertaventana;
+}
+
+section#piePagealum {
+    grid-area: piePagealum;
+}
+
+section#horarioalum {
+    grid-area: horarioalum;
+    text-align: center;
+}
+
+section#instaalum {
+    grid-area: instaalum;
+}
+
+.imgAlum {
+    display: grid;
+    grid-template-areas:
+        "aberturas ventana ventana"
+        "aberturas puertaventana puertaventana"
+        "piePagealum horarioalum instaalum";
+
+    grid-template-columns: 33%;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    justify-items: center;
+    align-items: center;
+}
+
+#principal img {
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+}
+
+#principal img:hover {
+    transform: scale(120%);
+}
+
+#aberturasdealuminio img {
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+}
+
+#aberturasdealuminio img:hover {
+    transform: scale(120%);
+}
+
+#arquitectura img {
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+}
+
+#arquitectura img:hover {
+    transform: scale(120%);
+}
+
+#disenodeinteriores img {
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+}
+
+#disenodeinteriores img:hover   {
+    transform: scale(120%) ;
+    overflow-x: hidden;
+}
+
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 650px) {
+    .grilla {
+        display: grid;
+        grid-template-areas:
+            "arquitectura1"
+            "disinterior"
+            "imageninc"
+            "disinterior1"
+            "logopie"
+            "insta1"
+            "horario";
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto auto auto;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .barraNavbarra {
+        display: flex;
+        flex-direction: column;
+        font-style: normal;
+        font-weight: bold;
+        margin: 0px;
+        text-align: center;
+
+    }
+
+    .grillaempresa {
+        display: grid;
+        grid-template-areas:
+            "logopie"
+            "insta1"
+            "horario";
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .arquitectura1 {
+        display: grid;
+        grid-template-areas:
+            "arquitec1"
+            "arquitec2"
+            "piePagearq"
+            "insta1arq"
+            "horarioarq";
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        align-items: center;
+
+    }
+
+    .grilladis {
+        display: grid;
+        height: 100vh;
+        grid-template-areas:
+            "cocina"
+            "placard"
+            "lavanderia"
+            "escritorio"
+            "logopie"
+            "insta1"
+            "horario";
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto auto auto;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .imgAlum {
+        display: grid;
+        grid-template-areas:
+            "ventana"
+            "aberturas"
+            "puertaventana"
+            "piePagealum"
+            "horarioalum"
+            "instaalum";
+
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto auto auto;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        justify-items: center;
+        align-items: center;
+    }
+
+
+
+
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1200px) {
+    .grilla {
+        display: grid;
+        grid-template-areas:
+            "arquitectura1 arquitectura1"
+            "disinterior imageninc"
+            "disinterior1 disinterior1"
+            "logopie logopie"
+            "horario insta1";
+        grid-template-columns: 50%;
+        grid-template-rows: auto auto auto auto auto;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .barraNavbarra {
+        display: flex;
+        flex-direction: column;
+        font-style: normal;
+        font-weight: bold;
+        margin: 0px;
+        text-align: center;
+
+    }
+
+    .grillaempresa {
+        display: grid;
+        grid-template-areas:
+            "logopie logopie"
+            "horario insta1";
+        grid-template-columns: 50%;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .arquitectura1 {
+        display: grid;
+        grid-template-areas:
+            "arquitec1 arquitec1"
+            "arquitec2 arquitec2"
+            "piePagearq piePagearq"
+            "horarioarq insta1arq";
+        grid-template-columns: 50%;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        align-items: center;
+
+    }
+
+    .grilladis {
+        display: grid;
+        grid-template-areas:
+            "cocina escritorio"
+            "cocina escritorio"
+            "placard lavanderia"
+            "logopie logopie"
+            "horario insta1";
+        grid-template-columns: 50%;
+        grid-template-rows: auto auto auto auto auto;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .imgAlum {
+        display: grid;
+        grid-template-areas:
+            "ventana ventana"
+            "aberturas aberturas"
+            "puertaventana puertaventana"
+            "piePagealum piePagealum"
+            "horarioalum instaalum";
+
+        grid-template-columns: 50%;
+        grid-template-rows: auto auto auto auto auto;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        justify-items: center;
+        align-items: center;
+    }
+}

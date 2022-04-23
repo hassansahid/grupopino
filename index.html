@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 
     <title> GRUPO PINO - DESAFIO </title>
 </head>
@@ -15,96 +15,105 @@
 
     <header>
 
-        <img class="arriba">
-
-        <img src="./img/grupopino.jpg" alt="LOGO GRUPO PINO" width="256" height="128" />
-
-        </img>
-
-
-        <nav class="barraNav">
-            <ul class="barraNavbarra">
-                <li class="barraNavItem"><a href="./index.html">INICIO</a></li>
-                <li class="barraNavItem"><a href="./subpaginas/empresa.html">EMPRESA</a></li>
-                <li class="barraNavItem"><a href="./subpaginas/arquitectura.html">ARQUITECTURA</a></li>
-                <li class="barraNavItem"><a href="./subpaginas/disenodeinteror.html">DISEÑO DE INTERIOR</a></li>
-                <li class="barraNavItem"><a href="./subpaginas/aberturasdealuminio.html">ABERTURAS DE ALUMINIO</a></li>
-                <li class="barraNavItem"><a href="./subpaginas/contacto.html">CONTACTO</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-grey border-3 border-button border-primary">
+            <div class="container-fluid">
+                <a href="./index.html"><img src="./img/grupopino.jpg" alt="LOGO GRUPO PINO" width="256"
+                        height="128" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarNav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item"><a class="nav-link" href="./index.html">INICIO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./subpaginas/empresa.html">EMPRESA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./subpaginas/arquitectura.html">ARQUITECTURA</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="./subpaginas/disenodeinteror.html">DISEÑO DE
+                                INTERIOR</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./subpaginas/aberturasdealuminio.html">ABERTURAS
+                                DE ALUMINIO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./subpaginas/contacto.html">CONTACTO</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
     </header>
+
 
     <main>
         <section>
             <H1>
                 <center>GRUPO PINO S. A.</center>
             </H1>
-            <div class="grilla" id="principal">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 mb-4">
+                    <a href="./subpaginas/arquitectura.html"><img src="./img/Fachadas.jpg"
+                            class="w-100 shadow-1-strong rounded mb-4 img-fluid" alt="ARQUITECTURA" /> </a>
 
-                <section id="arquitectura1" class="border"><a href="subpaginas/arquitectura.html"><img
-                            src="./img/Fachadas.jpg" alt="ARQUITECTURA" width="750" height="400" /></a></section>
+                    <a href="./subpaginas/disenodeinteror.html"><img src="./img/adc429776abd55abfa6d034e99cae3f9.jpg"
+                            class="w-100 shadow-1-strong rounded mb-4 img-fluid" alt="MUEBLES" /></a>
+                </div>
 
+                <div class="col-lg-4 mb-4 mb-lg-0">
 
-                <section id="disinterior" class="border"><a href="subpaginas/disenodeinteror.html"><img
-                            src="./img/adc429776abd55abfa6d034e99cae3f9.jpg" alt="MUEBLES" width="320"
-                            height="300" /></a></section>
+                    <a href="./subpaginas/aberturasdealuminio.html"><img src="./img/aluminiopuerta.jpg"
+                            class="w-100 shadow-2-strong rounded mb-4 img-fluid" alt="CARPINTERIA DE ALUMINIO" /></a>
 
-
-                <section id="imageninc" class="border"><a href="subpaginas/aberturasdealuminio.html"><img
-                            src="./img/aluminiopuerta.jpg" alt="CARPINTERIA DE ALUMINIO" width="320" height="300" /></a>
-                </section>
-
-
-                <section id="disinterior1" class="border"><a href="subpaginas/disenodeinteror.html"><img
-                            src="./img/diseñococina.jpg" alt="MUEBLES" width="400" height="700" /></a></section>
-
-
-
-
-
-
-                <section id="piePage" class="border">
-
-                    <div class="logopie"> <img src="./img/DIVINTERGP.jpg" alt="LOGO GRUPO PINO DIV INTERIOR" width="230"
-                            height="100" />
-                    </div>
-
-
-                </section>
-
-
-                <section id="horario" class="border">
-                    <H5>
-                        <br>ATENCION AL CLIENTE<br>
-                        <br><B>2615434240</B><br>
-                        <br>LUNES A VIERNES DE 09:00 A 15:00</br>
-                        <br><iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.9897705722437!2d-68.8527403854907!3d-32.95127948091968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0bb6e5f82231%3A0x33378cc77a31aa47!2sGrupo%20Pino%20S.a.!5e0!3m2!1ses-419!2sar!4v1647909966599!5m2!1ses-419!2sar"
-                            width="200" height="75" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </br>
-
-                    </H5>
-                </section>
-
-
-                <section class="insta" id="insta1" class="border"><a href="https://www.instagram.com/muebles.grupopino"
-                        target="_blank">
-                        <img src="./img/instagram.png" alt="instagram" width="50" height="25" />
-                        /muebles.grupopino
-                    </a>
-
-
-
-
-
-                </section>
-
+                    <a href="./subpaginas/disenodeinteror.html"><img src="./img/diseñococina.jpg"
+                            class="w-100 shadow-2-strong rounded mb-4 img-fluid" alt="MUEBLES" /></a>
+                </div>
             </div>
 
 
         </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+
+                    <section id="piePagealum" class="col auto">
+
+                        <div class="logopie"> <img src="./img/DIVINTERGP.jpg" alt="LOGO GRUPO PINO DIV INTERIOR"
+                                width="230" height="100" />
+                        </div>
+
+
+                    </section>
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                    <section id="horarioalum" class="text-center">
+                        <H5>
+                            <br>ATENCION AL CLIENTE<br>
+                            <br><B>2615434240</B><br>
+                            <br>LUNES A VIERNES DE 09:00 A 15:00</br>
+                            <br><iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.9897705722437!2d-68.8527403854907!3d-32.95127948091968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0bb6e5f82231%3A0x33378cc77a31aa47!2sGrupo%20Pino%20S.a.!5e0!3m2!1ses-419!2sar!4v1647909966599!5m2!1ses-419!2sar"
+                                width="200" height="75" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </br>
+
+                        </H5>
+                    </section>
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                    <section class="insta" id="instaalum" class="col-auto"><a
+                            href="https://www.instagram.com/muebles.grupopino" target="_blank">
+                            <img src="./img/instagram.png" alt="instagram" width="50" height="25" />
+                            /muebles.grupopino
+                        </a>
+
+
+
+
+
+                    </section>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 

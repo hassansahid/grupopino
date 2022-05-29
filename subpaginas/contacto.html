@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="grupo, pino, arquitectura, arquitecto, mueble, diseño, aluminio, abertura, muebles, interior, interiores">
-    <meta name="description" content="CONTACTO - Empresa dedicada a la arquitectura, abertura de aluminio, diseño de interior y muebles. PERSONALIZADO A MEDIDA.">
+    <meta name="keywords"
+        content="grupo, pino, arquitectura, arquitecto, mueble, diseño, aluminio, abertura, muebles, interior, interiores">
+    <meta name="description"
+        content="CONTACTO - Empresa dedicada a la arquitectura, abertura de aluminio, diseño de interior y muebles. PERSONALIZADO A MEDIDA.">
 
 
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/animaciones.css">
 
     <title> GRUPO 🌲 PINO - FORMULARIO </title>
 </head>
@@ -42,49 +45,76 @@
 
     </header>
 
-
-    <center><h1>CONTACTO</h1></center>
-
-
-    <form action class="text-center">
-        <label for="name">Nombre y Apellido
-            <input type="text" placeholder="Ejemplo: Jorge Perez" name="name"><br>
-        </label><br>
-        <label for="email">Email
-            <input type="email" placeholder="jorgeperez@gmail.com" name="email"><br>
-        </label><br>
-        <label for="celular">Celular
-            <input type="number" placeholder="2616112233" name="celular"> <br>
-        </label><br>
-
-        <p>Con que sector te quieres contactar? <select name="sector">
-                <option value="ARQUITECTURA">ARQUITECTURA</option>
-                <option value="DISEÑODEINTERIOR">DISEÑO DE INTERIOR</option>
-                <option value="ABERTURASDEALUMINIO">ABERTURAS DE ALUMINIO</option>
-            </select></p>
-
-        <label for="CONSULTA"> CONSULTA:<p>
-                <textarea placeholder="TU CONSULTA"></textarea>
-        </label> </P>
-        <div>
-            <p>¿Cómo quieres que te contactemos?</p>
-            <div>Whatsapp
-                <input type="radio" name="Whatsapp" value="Whatsapp">
-                Llamada
-                <input type="radio" name="Llamada" value="Llamada">
-                Email
-                <input type="radio" name="Email" value="Email">
+    <div class="text-center">
+        <h1>
+            CONTACTO
+        </h1>
+    </div>
+    <form>
+        <div class="form-group row">
+            <label for="name" class="col-sm-2 col-form-label">Nombre y Apellido
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" placeholder="Ejemplo: Jorge Perez">
             </div>
         </div>
-        </p>
-        <div>
-            <p>¿Quieres recibir mas información de nosotros?
-                <input type="checkbox" name="acepta" value="1">
-            </p>
+        <div class="form-group row">
+            <label for="email" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="jorgeperez@gmail.com">
+            </div>
         </div>
-
-        <input type="submit" value="ENVIAR">
-        <input type="reset" value="BORRAR">
+        <div class="form-group row">
+            <label for="celular" class="col-sm-2 col-form-label">Celular</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-control" id="celular" placeholder="2616112233">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="Contactar" class="col-sm-2 col-form-label">¿Con que sector te quieres contactar?</label>
+            <div class="col-sm-10">
+                <select class="form-control">
+                    <option>ARQUITECTURA</option>
+                    <option>DISEÑO DE INTERIOR</option>
+                    <option>ABERTURAS DE ALUMINIO</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="consulta" class="col-sm-2 col-form-label">CONSULTA</label>
+            <div class="col-sm-10">
+                <textarea class="form-control" rows="3" placeholder="Tu consulta" id="consulta">
+                </textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <p>¿Cómo quieres que te contactemos?</p>
+            <label class="checkbox-inline">
+                <input type="checkbox" id="Whatsapp" value="Whatsapp"> Whatsapp
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" id="Llamada" value="Llamada"> Llamada
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" id="Email" value="Email"> Email
+            </label>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-2">¿Quieres recibir mas información de nosotros?</div>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox">
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">ENVIAR</button>
+                <button type="reset" class="btn btn-primary">BORRAR</button>
+            </div>
+        </div>
     </form>
 
 
@@ -95,8 +125,8 @@
 
                 <section id="piePagealum" class="col auto">
 
-                    <div class="logopie"> <img src="../img/DIVINTERGP.jpg" alt="logo grupo pino interiores"
-                            width="230" height="100" />
+                    <div class="logopie"> <img src="../img/DIVINTERGP.jpg" alt="logo grupo pino interiores" width="230"
+                            height="100" />
                     </div>
 
 
@@ -111,31 +141,25 @@
                         <br>LUNES A VIERNES DE 09:00 A 15:00</br>
                         <br><iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.9897705722437!2d-68.8527403854907!3d-32.95127948091968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0bb6e5f82231%3A0x33378cc77a31aa47!2sGrupo%20Pino%20S.a.!5e0!3m2!1ses-419!2sar!4v1647909966599!5m2!1ses-419!2sar"
-                            width="200" height="75" style="border:0;" allowfullscreen=""
-                            loading="lazy"></iframe>
+                            width="200" height="75" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </br>
 
                     </h5>
                 </section>
             </div>
 
-            <div class="col-xs-12 col-md-4">
-                <section class="insta" id="instaalum" class="col-auto"><a
-                        href="https://www.instagram.com/muebles.grupopino" target="_blank">
-                        <img src="../img/instagram.png" alt="instagram" width="50" height="25" />
-                        /muebles.grupopino
-                    </a>
-
-
-
-
-
-                </section>
-            </div>
+            <div class="col-xs-12 col-md-4 text-center">
+                        <section class="insta col-auto" id="instaalum"><a
+                                href="https://www.instagram.com/muebles.grupopino" class="link-intagram" target="_blank">
+                                <img src="../img/instagram.png" alt="instagram" width="50" height="25" />
+                                /muebles.grupopino
+                            </a>
+                        </section>
+                    </div>
         </div>
     </div>
 
-<script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 

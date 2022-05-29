@@ -8,12 +8,12 @@
   text-decoration: none;
   font-weight: bold;
   transition: 1s;
-  font-size: 25px; }
+  font-size: 17px; }
 
 .img_zoom:hover {
   transition: 2s;
-  transform: scale(90%); }
+  transform: scale(95%); }
 
 .img_zoomSub:hover {
   transition: 2s;
-  transform: scale(110%); }
+  transform: scale(105%); }
